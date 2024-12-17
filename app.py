@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 
 ### Load the trained model 
-model =load_model('model.h5')
+model =load_model('model.h5',compile=False)
 
 
 ## Load the pickls files 
